@@ -1,0 +1,11 @@
+[package]
+name = "pmapi-sys"
+version = "0.1.0"
+authors = ["Jose Fernandez <me@jrfernandez.com>"]
+license = "LGPL-2.1-or-later"
+description = "Rust bindings for the Performance Metrics API (PMAPI)"
+edition = "2021"
+publish = ["crates-io"]
+
+[build-dependencies]
+bindgen = "0.69.4"
