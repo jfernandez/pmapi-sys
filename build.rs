@@ -1,6 +1,9 @@
 use std::{env, path::PathBuf};
 
 fn main() {
+    // Add library linking directives
+    println!("cargo:rustc-link-lib=pcp");
+    
     let bindings = bindgen::Builder::default()
         .header("bindings.h")
         .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
