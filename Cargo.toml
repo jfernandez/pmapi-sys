@@ -1,6 +1,6 @@
 [package]
 name = "pmapi-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jose Fernandez <me@jrfernandez.com>"]
 license = "LGPL-2.1-or-later"
 description = "Rust bindings for the Performance Metrics API (PMAPI)"
