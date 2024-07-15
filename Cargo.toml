@@ -13,3 +13,6 @@ publish = ["crates-io"]
 
 [build-dependencies]
 bindgen = "0.69.4"
+
+[dev-dependencies]
+num_cpus = "1.16.0"
